@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="song_name">
+        <item>红玫瑰</item>
+        <item>精忠报国</item>
+        <item>富士山下</item>
+        <item>碌卡</item>
+        <item>一千个伤心的理由</item>
+        <item>冰雨</item>
+        <item>红日</item>
+        <item>listen to me</item>
+        <item>suger</item>
+        <item>call me maybe</item>
+        <item>hello me</item>
+        <item>今天你就要嫁给我</item>
+        <item>小苹果</item>
+        <item>听我说</item>
+        <item>我相信</item>
+        <item>单身情歌</item>
+        <item>路过</item>
+        <item>爱你一万年</item>
+        <item>不要离开我</item>
+        <item>five boy</item>
+        <item>nci sjoi</item>
+        <item>my love</item>
+        <item>last day for me</item>
+        <item>真的爱你</item>
+        <item>爱</item>
+        <item>光辉岁月</item>
+        <item>每个明天</item>
+        <item>等待的痛</item>
+        <item>泡沫</item>
+        <item>嗨歌</item>
+        <item>没离开过</item>
+        <item>你是我的爱人</item>
+        <item>棉花糖</item>
+        <item>朋友</item>
+        <item>god is girl</item>
+        <item>one love</item>
+        <item>tiger</item>
+        <item>hello kitty</item>
+        <item>time is money</item>
+        <item>old love</item>
+        <item>sweeter</item>
+    </string-array>
+</resources>

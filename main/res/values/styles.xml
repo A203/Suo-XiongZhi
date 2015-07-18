@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="wrap_content_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="match_parent_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="match_wrap_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="welcome_img_style">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">140dp</item>
+        <item name="android:src">@drawable/welcome_img</item>
+    </style>
+    <style name="welcome_word_style" parent="wrap_content_style">
+        <item name="android:text">@string/welcome_word</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:paddingTop">115dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="show_style" parent="wrap_content_style">
+        <item name="android:text">@string/show</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="tab_button_top">
+        <item name="android:textSize">12px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/tab_btn_bg</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">4dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="online_tv_info" parent="wrap_content_style">
+        <item name="android:text">该功能不幸沉睡了</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+</resources>

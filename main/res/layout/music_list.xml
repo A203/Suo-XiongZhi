@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/left"
+    style="@style/match_wrap_style">
+
+    <ListView
+        android:entries="@array/gender"
+        style="@style/wrap_content_style">
+    </ListView>
+
+</LinearLayout>

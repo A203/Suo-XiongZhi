@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_style"
+    android:id="@+id/tab3_view"
+    android:background="@drawable/six"
+    >
+
+    <TextView
+        android:id="@+id/online_tv"
+        style="@style/wrap_style"
+        android:textSize="28sp"
+        android:textColor="#ffe4ff8c"
+        android:text="爱音乐，享受音乐"
+        android:layout_centerInParent="true"
+        />
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:background="#708090"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <ImageView
+            android:src="@drawable/eason"
+            android:id="@+id/brand_img"
+            style="@style/brand_style"/>
+
+        <Button
+            android:id="@+id/previous"
+            style="@style/img_style"
+            android:layout_toRightOf="@+id/brand_img"
+            />
+        <Button
+            android:id="@+id/play"
+            style="@style/img_style"
+            android:layout_toRightOf="@+id/previous"
+            />
+        <Button
+            android:id="@+id/next"
+            style="@style/img_style"
+            android:layout_toRightOf="@+id/play"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

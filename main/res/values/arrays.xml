@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="name">
+        <item>张三</item>
+        <item>李四</item>
+        <item>李四</item>
+        <item>李四</item>
+        <item>李四</item>
+        <item>李四</item>
+        <item>李四</item>
+        <item>李四</item>
+        <item>李四</item>
+    </string-array>
+    <string-array name="gender">
+        <item>男男男男</item>
+        <item>男男男男</item>
+        <item>男男男男</item>
+        <item>男男男男</item>
+        <item>男男男男</item>
+        <item>男男男男</item>
+        <item>男男男男</item>
+        <item>男男男男</item>
+    </string-array>
+</resources>

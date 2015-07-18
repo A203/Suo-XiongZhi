@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    style="@style/match_parent_style">
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/match_parent_style">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:visibility="gone"
+            style="@style/match_wrap_style">
+        </TabWidget>
+        <RadioGroup android:id="@+id/tab_radiogroup"
+            android:background="@drawable/tabs_bg"
+            style="@style/match_wrap_style"
+            android:gravity="center_vertical"
+            android:layout_gravity="top"
+            android:orientation="horizontal">
+            <RadioButton android:id="@+id/radio_button_list"
+                android:layout_marginTop="2.0dip"
+                android:text="@string/song_list"
+                android:drawableTop="@drawable/next"
+                style="@style/tab_button_top"
+                android:checked="true" />
+            <RadioButton android:id="@+id/radio_button_forma"
+                android:layout_marginTop="2.0dip"
+                android:text="@string/song_froma"
+                android:drawableTop="@drawable/next"
+                style="@style/tab_button_top" />
+            <RadioButton android:id="@+id/radio_button_online"
+                android:layout_marginTop="2.0dip"
+                android:text="@string/music_online"
+                android:drawableTop="@drawable/next"
+                style="@style/tab_button_top" />
+        </RadioGroup>
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            style="@style/match_parent_style">
+            <ListView
+                android:id="@+id/tab_list"
+                style="@style/wrap_content_style"
+                />
+            <ListView
+                android:id="@+id/tab_forma"
+                style="@style/wrap_content_style"
+                />
+            <TextView
+                android:id="@+id/tab_online"
+                style="@style/online_tv_info" />
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>
